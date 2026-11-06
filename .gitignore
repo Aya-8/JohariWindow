@@ -1,0 +1,27 @@
+node_modules/
+dist/
+dist-preview/
+artifacts/
+data/
+*.log
+*.tsbuildinfo
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+
+# Diagnosis exports and legacy databases
+johari-*.json
+johari-*.csv
+johari-*.pdf
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# OS metadata
+.DS_Store
+Thumbs.db
